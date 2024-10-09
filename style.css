@@ -19,7 +19,7 @@ body{
     height: 100vh;
     overflow-x: hidden;
     background-color: #eeeaea;
-    color: rgb(233, 115, 180);
+    color: rgb(243, 88, 173);
 }
 
 header{
@@ -71,8 +71,8 @@ nav a.active{
         top: 0;
         right: 0;
         width: 40%;
-        border-left: 3px solid #b74b4b;
-        border-bottom: 3px solid #b74b4b;
+        border-left: 3px solid #f07bf0;
+        border-bottom: 3px solid #f177e7;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
         background-color: #161616;
@@ -182,7 +182,7 @@ span{
 
 .typing-text span::before{
     content: "software Developer";
-    color: #b74b4b;
+    color: #9b42e4;
     animation: words 20s infinite;
 }
 
@@ -199,7 +199,7 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #b74b4b;
+        border-left: 3px solid #a929ad;
     }
 }
 
